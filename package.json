@@ -1,0 +1,29 @@
+{
+  "name": "google-keep-skills",
+  "version": "1.0.0",
+  "description": "Google Keep skill for OpenClaw - Manage your Keep notes from CLI",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "google-keep",
+    "cli",
+    "notes"
+  ],
+  "author": "jerryshadow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerryshadow/google-keep-skills"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
