@@ -1,0 +1,9 @@
+# Include everything except these
+!node_modules/**
+ 
+# Exclude these
+.git
+.gitignore
+.DS_Store
+*.log
+.env
